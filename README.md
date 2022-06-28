@@ -1,6 +1,7 @@
 # GitopiaTurkceKurulumRehberi
 ![image](https://user-images.githubusercontent.com/102043225/176181117-e8589025-8649-4ac3-9308-08c48f0335fe.png)
-Gitopia Türkçe Kurulum Rehberi
+
+# Gitopia Türkçe Kurulum Rehberi
 
 ## Sistem Gereksinimleri (Minimum) 
 * 2CPU
