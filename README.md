@@ -2,7 +2,8 @@
 ![image](https://user-images.githubusercontent.com/102043225/176181117-e8589025-8649-4ac3-9308-08c48f0335fe.png)
 
 # Gitopia Türkçe Kurulum Rehberi
-
+Kaynak: https://docs.gitopia.com/validator-setup/index.html
+Explorer: https://explorer.gitopia.com/
 ## Sistem Gereksinimleri (Minimum) 
 * 2CPU
 * 4GB RAM
