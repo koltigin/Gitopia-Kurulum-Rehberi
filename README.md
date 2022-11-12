@@ -67,8 +67,7 @@ source $HOME/.bash_profile
 ```shell
 curl https://get.gitopia.com | bash
 git clone -b v1.2.0 gitopia://gitopia/gitopia
-cd gitopia 
-make install && make install
+cd gitopia && make install
 ```
 
 Versiyon Kontrolü
@@ -76,7 +75,7 @@ Versiyon Kontrolü
 gitopiad version --long
 ```
 Çıktı aşağıdaki gibi olmalıdır; 
-`
+```shell
 build_deps:
 - cloud.google.com/go@v0.102.1
 - cloud.google.com/go/compute@v1.7.0
@@ -89,7 +88,7 @@ go: go version go1.18.6 darwin/arm64
 name: gitopia
 server_name: gitopiad
 version: 1.2.0
-`
+```
 
 ## Uygulamayı Yapılandırma ve Başlatma
 ```shell
