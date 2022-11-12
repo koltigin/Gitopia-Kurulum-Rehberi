@@ -152,6 +152,7 @@ sed -i.bak -e "s%^address = \"tcp://0.0.0.0:1317\"%address = \"tcp://0.0.0.0:${G
 
 ## Servis Dosyası Oluşturma
 ```shell
+mv $HOME/go/bin/gitopiad /usr/bin/
 tee <<EOF >/dev/null /etc/systemd/system/gitopiad.service
 [Unit]
 Description=Gitopia
