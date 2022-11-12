@@ -103,6 +103,12 @@ gunzip genesis.json.gz
 mv genesis.json $HOME/.gitopia/config/genesis.json
 ```
 
+Genesis dosyasını doğrulama;
+```shell
+shasum -a 256 $HOME/.gitopia/config/genesis.json
+```
+Yukarıdaki kodun çıktısı şu şekilde olmalıdır; `18961495f3b65a22928b98cc0b98073e39d3e8b17ee369f087ffe3ab2cd970e9`
+
 ## Minimum GAS Ücretinin Ayarlanması
 ```shell
 sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.001utlore\"/" $HOME/.gitopia/config/app.toml
@@ -110,7 +116,8 @@ sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.001utlore\"/" $HO
 
 ## Indexer'i Kapatma (Opsiyonel)
 ```shell
-sed -i 's|^indexer *=.*|indexer = "null"|' $HOME/.gitopia/config/config.toml
+indexer="null"
+sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.gitopia/config/config.toml
 ```
 
 ## SEED ve PEERS Ayarlanması
