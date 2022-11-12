@@ -1,13 +1,11 @@
 # Gitopia Türkçe Kurulum Rehberi
-Kaynak: https://docs.gitopia.com/validator-setup/index.html
-Explorer: https://explorer.gitopia.com/
-
+[Kaynak](https://docs.gitopia.com/validator-setup/index.html) / [Explorer](https://explorer.gitopia.com/)
 ![image](https://user-images.githubusercontent.com/102043225/176181117-e8589025-8649-4ac3-9308-08c48f0335fe.png)
 
 ## Bağlantılar
-[Gitopia Website](https://gitopia.com/)
-[Gitopia Discord](https://discord.gg/GhkA9SGJhD)
-[Gitopia Türkçe Destek](https://t.me/GitopiaTR)
+ * [Gitopia Website](https://gitopia.com/)
+ * [Gitopia Discord](https://discord.gg/GhkA9SGJhD)
+ * [Gitopia Türkçe Destek](https://t.me/GitopiaTR)
 
 ## Gereksinimler 
 | Bileşenler | Minimum Gereksinimler | **Tavsiye Edilen Gereksinimler** | 
