@@ -256,6 +256,8 @@ gitopiad tx staking create-validator \
 --yes
  ``` 
 
+## Form Doldurma
+Validator oluşturduktan sonra [buradaki](https://airtable.com/shrMQFJxcsMD0XV2M) formu da doldurunuz.
 
 ## YARARLI KOMUTLAR
 
