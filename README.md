@@ -62,7 +62,7 @@ echo "export GITOPIA_CHAIN_ID=Testnet3" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 
-## Gitopia'nın Kuruluması
+## Gitopia'nın Kurulması
 
 ```shell
 curl https://get.gitopia.com | bash
