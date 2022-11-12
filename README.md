@@ -209,6 +209,14 @@ echo 'export GITOPIA_VALOPER_ADDRESS='${GITOPIA_VALOPER_ADDRESS} >> $HOME/.bash_
 source $HOME/.bash_profile
 ```
 
+🔴 **Cüzdan oluşturma ya da içeri aktarma sırasında aşağıdaki gibi bir hata alırsanız**
+
+ * `-bash: /root/go/bin/gitopiad: No such file or directory`
+Bu kodu giriniz;
+```shell
+cp /usr/bin/gitopiad /root/go/bin
+```
+
 ## Faucet
 [Gitopia](https://gitopia.com/home) adresine giderek yukarıda oluşturduğumuz cüzdanı kepler ile siteye bağlayarak `Get TLORE` butonuna basarak 10 adet token istiyoruz. 
 
