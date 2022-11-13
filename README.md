@@ -248,6 +248,8 @@ gitopiad tx staking create-validator \
 --commission-max-rate="0.5" \
 --commission-max-change-rate="0.1" \
 --min-self-delegation="1" \
+--fees=250utlore \
+--gas=200000 \
 --from=$GITOPIA_WALLET \
 --details="Always forward with the Anatolian Team 🚀" \
 --security-contact="xxxxxxx@gmail.com" \
