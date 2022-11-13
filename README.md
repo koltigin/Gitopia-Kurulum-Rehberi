@@ -430,7 +430,8 @@ rm /etc/systemd/system/gitopiad.service && \
 systemctl daemon-reload && \
 cd $HOME && \
 rm -rf .gitopia gitopia && \
-rm -rf $(which gitopiad)
+rm -rf $(which gitopiad) \
+sed -i '/GITOPIA_/d' ~/.bash_profile
 ```
 
 # Hesaplar:
