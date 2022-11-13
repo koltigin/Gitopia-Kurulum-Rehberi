@@ -387,7 +387,7 @@ gitopiad tx distribution withdraw-rewards $VALOPER_ADDRESS --from=$GITOPIA_WALLE
 NEWNODENAME yazan yere yeni validator/moniker isminizi yazınız. TR karakçer içermemelidir.
 
 ```
-seid tx staking edit-validator \
+gitopiad tx staking edit-validator \
 --moniker=NEWNODENAME \
 --chain-id=$GITOPIA_CHAIN_ID \
 --from=$GITOPIA_WALLET
